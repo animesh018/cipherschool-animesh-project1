@@ -1,0 +1,134 @@
+/* .navbar_container{
+    background-color: #131921    ;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: -webkit-sticky;
+    /* Safari 
+    position: sticky;
+    top: 0;
+    height: 60px;
+   
+}
+
+
+.navbar_left {
+    font-size: 20px;
+    color: #E8F9FD;
+    display: flex;
+}
+
+.navbar_left>p  {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.navbar_left>p:hover {
+    border-style: solid;
+    cursor: pointer;
+    border-width: thin;
+
+}
+.navbar_right {
+    display: flex;
+}
+
+.navbar_right>p {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.navbar_right>p:hover {
+    border-style: solid;
+    cursor: pointer;
+    border-width: thin;
+
+}
+
+.navbar_below{
+    background-color: #363e47    ;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    height: 30px;
+
+} */
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+  }
+  
+  .header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  .header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+  }
+  
+  .header__optionLineOne {
+    font-size: 10px;
+  }
+  
+  .header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }

@@ -1,0 +1,120 @@
+.header {
+  background-color: #131921    ;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-size-adjust: 23px;
+  position: -webkit-sticky;
+  /* /* Safari  */
+  position: sticky;
+  top: 0;
+  height: 70px;
+ 
+  }
+  
+  .header__nav{
+    display: flex;
+    align-items: center;
+  }
+ 
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+
+.header__option:hover{
+  border-style: solid;
+    cursor: pointer;
+    border-width: thin;
+
+  }
+
+  .LocationIcon
+  {
+display: flex;
+  }
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+   
+  }
+  
+  .header__searchInput {
+    height: 30px;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 6px;
+
+    width: 750px;
+  }
+  
+  .header__searchIcon {
+    padding: 5px;
+    height: 30px !important;
+    background-color: #cd9042;
+    border-radius: 6px;
+  }
+  
+  .header__optionLineOne {
+    font-size: 10px;
+  }
+  
+  .header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto;
+    text-align: center;
+    
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .header__below{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #445264;
+    text-align: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    
+  }
+
+  .header__below>p{
+    padding-top: 15px;
+  }
+.header__below>p:hover{
+  border-style: solid;
+    cursor: pointer;
+    border-width: thin;
+
+  }
+
+  

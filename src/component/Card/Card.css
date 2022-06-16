@@ -1,0 +1,28 @@
+.card{
+    width: 490px ;
+    height: 500px ;
+    margin: 15px 18px ;
+    border-width: thick;
+    margin-top: 20px;
+    
+}
+
+.card_title{
+
+    font-size: 30px;
+}
+
+
+
+.card_title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Card_image{
+    margin-bottom: 10px;
+    height: 200px;
+    width: 160px;
+    display: flex;
+}
+
